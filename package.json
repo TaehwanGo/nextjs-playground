@@ -10,7 +10,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "pre-commit-scripts"
+      "pre-commit": "npm run lint"
     }
   },
   "pre-commit-scripts": {
