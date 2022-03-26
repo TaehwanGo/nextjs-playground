@@ -12,7 +12,7 @@ const useContents = () => {
   }, [fetcher]);
   useEffect(() => {
     console.log("isOpen", isOpen);
-  }, [isOpen]);
+  }, []); //isOpen
   return {
     isOpen,
   };

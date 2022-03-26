@@ -1,0 +1,3 @@
+# husky
+
+npm install husky --save-dev
