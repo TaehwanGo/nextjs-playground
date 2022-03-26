@@ -1,8 +1,7 @@
 import useContents from "@hooks/useContents";
-// import { useContents } from "@hooks";
 
 const Contents = () => {
-  const {} = useContents();
+  const { isOpen } = useContents();
   return <div>hello world!</div>;
 };
 
