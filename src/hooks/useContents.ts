@@ -9,11 +9,10 @@ const useContents = () => {
   }, []);
   useEffect(() => {
     fetcher();
-    const [] = useState();
   }, [fetcher]);
   useEffect(() => {
     console.log("isOpen", isOpen);
-  }, []); // isOpen
+  }, [isOpen]);
   return {
     isOpen,
   };
