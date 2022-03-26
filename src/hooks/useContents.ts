@@ -1,11 +1,18 @@
-import { useEffect, useState } from "react";
+import { useCallback, useEffect, useState } from "react";
 
 const useContents = () => {
   const [isOpen, setIsOpen] = useState(false);
-  // TODO : setIsOpen이 dependency array에 포함되지 않으면 에러가 떠야 된다
-  useEffect(() => {
-    setIsOpen(true);
+  const fetcher = useCallback(() => {
+    setTimeout(() => {
+      setIsOpen(false);
+    }, 3000);
   }, []);
+  useEffect(() => {
+    fetcher();
+  }, [fetcher]);
+  useEffect(() => {
+    console.log("isOpen", isOpen);
+  }, [isOpen]);
   return {
     isOpen,
   };
