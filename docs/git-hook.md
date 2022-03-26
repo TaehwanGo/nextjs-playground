@@ -1,8 +1,8 @@
 # husky
 
-npm install husky --save-dev
+## lint-staged
 
-npm install --save -D lint-staged
+npx mrm lint-staged
 
 ### 참고
 
