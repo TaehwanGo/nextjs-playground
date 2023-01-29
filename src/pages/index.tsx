@@ -5,7 +5,12 @@ const Home: NextPage = () => {
   return (
     <>
       <h1>home</h1>
-      <Link href="/contents">go to content</Link>
+      <div>
+        <Link href="/contents">go to content</Link>
+      </div>
+      <div>
+        <Link href="/login/kakao">kakao login</Link>
+      </div>
     </>
   );
 };
