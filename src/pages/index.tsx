@@ -11,6 +11,9 @@ const Home: NextPage = () => {
       <div>
         <Link href="/login/kakao">kakao login</Link>
       </div>
+      <div>
+        <Link href="/pdf/">pdf page</Link>
+      </div>
     </>
   );
 };
