@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { useCallback, useEffect } from "react";
 
+// redirect_uri: "http://localhost:3000/login/kakao",
 const KakaoLogin = () => {
   const loginKaKao = useCallback(() => {
     // @ts-ignore
