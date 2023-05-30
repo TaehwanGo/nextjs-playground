@@ -14,6 +14,9 @@ const Home: NextPage = () => {
       <div>
         <Link href="/pdf/">pdf page</Link>
       </div>
+      <div>
+        <Link href="/froala">froala page</Link>
+      </div>
     </>
   );
 };
